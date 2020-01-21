@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Feedback">
+
+    <EditText
+        android:id="@+id/etFeedName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name *" />
+
+
+    <EditText
+        android:id="@+id/etFeedEMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail *"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etFeedMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number *"
+        android:maxLength="10"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/etFeedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Comment *" />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btnPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="  SEND FEEDBACK  "
+        android:textColor="#ffffff" />
+
+</LinearLayout>
